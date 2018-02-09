@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="http://krivega.com/lab/registration-form/" target="_blank"><img src="https://github.com/Krivega/registration-form/raw/master/public/logo.png" alt="">Registration form" width="200"></a>
+  <a href="http://krivega.com/lab/registration-form/" target="_blank"><img src="https://github.com/Krivega/registration-form/raw/master/public/logo.png" alt="Registration form" width="200"></a>
   <br>
   ">Registration form
   <br>
