@@ -1,0 +1,6 @@
+@import 'sass/style';
+
+.grid {
+  display: flex;
+  margin: 0 -$grid-gutter/2;
+}

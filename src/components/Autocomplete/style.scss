@@ -1,0 +1,14 @@
+@import 'sass/style';
+
+.autocomplete {
+  position: relative;
+  min-height: 45px;
+  margin-top: - #{$form-group-margin-bottom + $input-border-radius};
+  margin-bottom: $form-group-margin-bottom;
+  padding-top: $input-border-radius;
+  border-right: $input-border-width solid $input-border-color;
+  border-bottom: $input-border-width solid $input-border-color;
+  border-left: $input-border-width solid $input-border-color;
+  border-bottom-right-radius: $input-border-radius;
+  border-bottom-left-radius: $input-border-radius;
+}

@@ -1,0 +1,30 @@
+@import 'sass/style';
+
+$select-input-border-width: 0;
+$select-input-border-radius: 0;
+$select-input-border-radius: 0;
+$select-input-bg: transparent;
+$select-option-bg: $light-color;
+$select-option-selected-bg: $focus-color-primary;
+$select-option-focused-bg: $focus-color-primary;
+
+@import 'node_modules/react-select/scss/select';
+@import 'node_modules/react-select/scss/mixins';
+@import 'node_modules/react-select/scss/control';
+@import 'node_modules/react-select/scss/menu';
+
+.Select {
+  width: 100%;
+
+  &.is-focused {
+    box-shadow: 0px 0px 0px 1px $focus-color-primary;
+  }
+
+  .Select-control .Select-value {
+    display: flex;
+  }
+
+  .Select-option {
+    display: flex;
+  }
+}

@@ -1,0 +1,9 @@
+@import 'sass/style';
+@import 'node_modules/bootstrap/scss/reboot';
+
+.app {
+  width: 100%;
+  max-width: 372px;
+  margin: 50px auto 0;
+  color: $base-color;
+}

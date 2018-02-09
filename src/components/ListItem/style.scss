@@ -1,0 +1,20 @@
+@import 'sass/style';
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 40px;
+  padding: $dropdown-item-padding-y $dropdown-item-padding-x;
+  color: $dropdown-link-color;
+
+  &_linked {
+    cursor: pointer;
+
+    @include hover-focus {
+      background-color: $focus-color-primary;
+      text-decoration: none;
+      color: $focus-color-secondary;
+    }
+  }
+}

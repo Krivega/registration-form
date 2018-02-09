@@ -1,0 +1,36 @@
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins';
+
+$grid-gutter: 10px;
+$grid-columns: 12;
+$base-color: #4a4a4a;
+$secondary-color: #9c9c9c;
+$light-color: #f9f9f9;
+$input-color: $base-color;
+$input-placeholder-color: #d3d3d3;
+$focus-color-primary: $input-focus-border-color;
+$focus-color-secondary: $input-focus-color;
+
+%sys {
+  margin: 0;
+  padding: 0;
+}
+
+%syslist {
+  list-style: none;
+
+  @extend %sys;
+}
+
+@function transition($property) {
+  @return #{$property} 180ms cubic-bezier(.4, 0, .2, 1);
+}
+
+@function animation-enter($name, $duration, $delay: 0ms) {
+  @return $name $duration $delay cubic-bezier(0, 0, .2, 1);
+}
+
+@function animation-exit-temporary($name, $duration, $delay: 0ms) {
+  @return $name $duration $delay cubic-bezier(.4, 0, .6, 1);
+}

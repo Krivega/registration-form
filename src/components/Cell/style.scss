@@ -1,0 +1,13 @@
+@import 'sass/style';
+
+@mixin cell-size($size, $columns, $gutter) {
+  width: calc(#{percentage($size / $columns)} - #{$gutter});
+}
+
+.cell {
+  margin: 0 $grid-gutter/2;
+
+  &_equal {
+    @include cell-size( $grid-columns/2, $grid-columns, $grid-gutter);
+  }
+}
