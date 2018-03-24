@@ -1,12 +1,14 @@
 <h1 align="center">
   <br>
-  <a href="http://krivega.com/lab/registration-form/" target="_blank"><img src="https://github.com/Krivega/registration-form/raw/master/public/logo.png" alt="Registration form" width="200"></a>
+  <a href="https://krivega.github.io/registration-form" target="_blank"><img src="https://github.com/Krivega/registration-form/raw/master/public/logo.png" alt="Registration form" width="200"></a>
   <br>
   Registration form
   <br>
 </h1>
 
 <h4 align="center">Registration form.</h4>
+
+### [Demo](https://krivega.github.io/registration-form)
 
 ## How To Use
 
