@@ -6,7 +6,7 @@ import allCountries from './data';
 import './style.css';
 
 const optionRender = ({ value }) => {
-  const flagImageUrl = `/flags/${value}.png`;
+  const flagImageUrl = `${process.env.PUBLIC_URL}/flags/${value}.png`;
   const optionStyle = {
     width: 30,
     height: 30
